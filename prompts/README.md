@@ -2,6 +2,8 @@
 
 Cue 維護。RAG 02 Colab 的 prompt 版本化存放：
 
+本 issue 的單一真相檔為 [`v1-system-persona.md`](v1-system-persona.md)、[`v1-b-answer-format.md`](v1-b-answer-format.md) 與 [`v1-a-pending-gate.md`](v1-a-pending-gate.md)。Notebook 只載入這些檔案，不重寫 prompt 內容。題組、預期命中及實測欄位見 [`tests/rag02-t1-t5.md`](../tests/rag02-t1-t5.md)。
+
 - system 人設（罰則問答助理，回答必附條號）
 - B 版（現行法單庫）回答格式
 - A 版（分流：意圖開閘三條件成立 → 進 pending 隔離庫）
