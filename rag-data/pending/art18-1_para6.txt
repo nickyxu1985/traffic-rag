@@ -1,0 +1,20 @@
+標題：道路交通管理處罰條例 第18-1條第6項
+資料類型：法規條文官方原文（全國法規資料庫）
+主管機關：交通部
+來源網址：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+教材整理日期：2026-10-25
+law_name：道路交通管理處罰條例
+article：18-1
+paragraph：6
+chapter：第二章 汽車
+version_date：2021-12-15
+effective_status：not_yet_effective
+effective_date：未定
+source：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+retrieved_at：2026-10-25T14:46:21+08:00
+chunk_id：pending:art18-1_para6
+
+【內容】
+（背景參照——非本項本文：本項所稱「第一項」之規定原文（110-12-15 修正之現行有效第一項，chunk_id core:art18-1_para1）：「汽車未依規定裝設行車紀錄器、行車視野輔助系統或防止捲入裝置者，處汽車所有人新臺幣一萬二千元以上二萬四千元以下罰鍰。」）
+
+第一項汽車裝設防止捲入裝置之實施、宣導、輔導及獎勵辦法，由交通部定之。
