@@ -1,0 +1,20 @@
+標題：道路交通管理處罰條例 第35-2條
+資料類型：法規條文官方原文（全國法規資料庫）
+主管機關：交通部
+來源網址：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+教材整理日期：2026-10-25
+law_name：道路交通管理處罰條例
+article：35-2
+paragraph：all
+chapter：第二章 汽車
+version_date：2019-04-17
+effective_status：effective
+effective_date：2019-07-01
+source：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+retrieved_at：2026-10-25T14:46:21+08:00
+chunk_id：core:art35-2
+
+【內容】
+汽車運輸業所屬之職業駕駛人因執行職務，駕駛汽車有違反第三十五條第一項、第三項、第四項或第五項之情形，致他人受有損害而應負賠償責任者，法院得因被害人之請求，依侵害情節，酌定損害額三倍以下之懲罰性損害賠償金令該汽車運輸業者賠償。但選任受僱人及監督其職務之執行，已盡相當之注意而仍不免發生損害者，汽車運輸業者不負賠償責任。
+
+前項懲罰性損害賠償金請求權，自請求權人知有損害及賠償義務人時起二年間不行使而消滅；自賠償原因發生之日起逾五年者，亦同。

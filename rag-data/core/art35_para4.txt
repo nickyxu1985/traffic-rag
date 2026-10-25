@@ -1,0 +1,18 @@
+標題：道路交通管理處罰條例 第35條第4項
+資料類型：法規條文官方原文（全國法規資料庫）
+主管機關：交通部
+來源網址：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+教材整理日期：2026-10-25
+law_name：道路交通管理處罰條例
+article：35
+paragraph：4
+chapter：第二章 汽車
+version_date：2025-11-19
+effective_status：effective
+effective_date：2026-01-31
+source：https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012
+retrieved_at：2026-10-25T14:46:21+08:00
+chunk_id：core:art35_para4
+
+【內容】
+汽機車駕駛人有下列各款情形之一者，處新臺幣十八萬元罰鍰，並當場移置保管該汽機車、吊銷其駕駛執照；如肇事致人重傷或死亡者，吊銷其駕駛執照，並不得再考領：一、駕駛汽機車行經警察機關設有告示執行第一項測試檢定之處所，不依指示停車接受稽查。二、拒絕接受第一項測試檢定。三、接受第一項測試檢定前，吸食服用含酒精之物、毒品、迷幻藥、麻醉藥品或其相類似之管制藥品。四、發生交通事故後，在接受第一項測試檢定前，吸食服用含酒精之物、毒品、迷幻藥、麻醉藥品或其相類似之管制藥品。

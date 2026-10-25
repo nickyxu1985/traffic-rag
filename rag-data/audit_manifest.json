@@ -1,0 +1,68 @@
+{
+ "law_name": "道路交通管理處罰條例",
+ "package": "audit",
+ "reference_date": "2026-10-25",
+ "generated_at": "2026-10-25T15:08:57+08:00",
+ "sources": {
+  "moj_oldver_1150114": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012",
+  "moj_lawall_current": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+  "moj_history": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012",
+  "tpe_snapshot_20250528": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL012454?date=20250528",
+  "tpe_snapshot_20211215": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL012454?date=20211215",
+  "tpe_snapshot_20210609": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL012454?date=20210609"
+ },
+ "chunk_count": 1,
+ "chunks": [
+  {
+   "chunk_id": "core:art18-1_para6",
+   "file": null,
+   "law_name": "道路交通管理處罰條例",
+   "chapter": "第二章 汽車",
+   "article": "18-1",
+   "paragraph": "6",
+   "version_date": null,
+   "effective_status": "absent_in_core",
+   "effective_date": null,
+   "source_url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012",
+   "retrieved_at": "2026-10-25T14:45:19+08:00",
+   "notes": "第6項（防止捲入裝置辦法授權）為110-12-15新增且尚未生效；修正前無第6項，core 標記 absent，不合成文字。",
+   "excluded_status": "absent_in_core",
+   "excluded_reason": "第6項（防止捲入裝置辦法授權）為110-12-15新增且尚未生效；修正前無第6項，core 標記 absent，不合成文字。"
+  },
+  {
+   "chunk_id": "core:art35_para6",
+   "file": "audit/art35_para6.txt",
+   "law_name": "道路交通管理處罰條例",
+   "chapter": "第二章 汽車",
+   "article": "35",
+   "paragraph": "6",
+   "version_date": "2019-04-17",
+   "excluded_status": "void_unconstitutional",
+   "effective_date": "2019-07-01",
+   "void_date": "2024-02-25",
+   "void_source": "https://cons.judicial.gov.tw/docdata.aspx?fid=38&id=310024",
+   "source_url": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL012454?date=20250528",
+   "retrieved_at": "2026-10-25T14:50:35+08:00",
+   "notes": "本項文字為108-04-17修正版（與102-01-30版規範內容相同，111-01-28、112-05-03均未更動本項）；憲法法庭111年憲判字第1號（判決日期2022-02-25，公告日同）主文第一項宣告本項強制採血規定違憲，應自公告之日起至遲於屆滿2年（2024-02-25）時失其效力；過渡期間強制取證須報請檢察官核發鑑定許可書（急迫情形先行移送、24小時內陳報）。114-11-19回應該判決之修正本項尚未生效（見 pending 層）；基準日2026-10-25時點本項已失效，故排除於 core 索引外，僅存查核紀錄。",
+   "excluded_reason": "憲法法庭111年憲判字第1號宣告違憲並已失效；不進 B 索引語料"
+  },
+  {
+   "chunk_id": "core:art35_para13",
+   "file": null,
+   "law_name": "道路交通管理處罰條例",
+   "chapter": "第二章 汽車",
+   "article": "35",
+   "paragraph": "13",
+   "version_date": null,
+   "effective_status": "absent_in_core",
+   "effective_date": null,
+   "source_url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012",
+   "retrieved_at": "2026-10-25T14:45:19+08:00",
+   "notes": "第13項（血液測試檢定個資法授權）為114-11-19新增且尚未生效；舊版無對應項，core 標記 absent，不合成文字。",
+   "excluded_status": "absent_in_core",
+   "excluded_reason": "第13項（血液測試檢定個資法授權）為114-11-19新增且尚未生效；舊版無對應項，core 標記 absent，不合成文字。"
+  }
+ ],
+ "excluded_count": 3,
+ "note": "排除於索引外之查核紀錄：違憲失效項（void_unconstitutional）與舊版無對應項（absent_in_core）；不進 B/pending 資料 zip。"
+}
