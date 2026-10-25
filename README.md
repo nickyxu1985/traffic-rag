@@ -11,9 +11,10 @@ TAICA 生成式 AI 課程・**第七週作業「打造自己的 RAG 對話機器
 
 | 路徑 | 用途 |
 | --- | --- |
+| `raw/` | **官方法規原檔（PDF）——語料切分單一真相來源**（Instinct 維護） |
 | `rag-data/core/` | 現行法語料（五份小樣本起步，驗收通過後擴全量） |
 | `rag-data/pending/` | 未生效法規隔離區（三份樣本） |
-| `rag-data/metadata-schema.md` | metadata 欄位單一真相（manifest 相容性驗收依據） |
+| `rag-data/metadata-schema.md` | metadata 欄位單一真相（含 source_ref 溯源欄） |
 | `colab/` | 兩份 notebook 版控（rag01＝Muse、rag02＝Cue；executed/ 執行版留痕） |
 | `prompts/` | RAG 02 prompt 版本化（Cue 維護；繳交註三證據鏈） |
 | `tests/` | 驗證題組 T1–T5（數字題、查無題、生效狀態題等） |
@@ -24,10 +25,10 @@ TAICA 生成式 AI 課程・**第七週作業「打造自己的 RAG 對話機器
 
 ## 資料流
 
-1. 語料切塊（一條一檔、長條按項），放入 `rag-data/`
+1. 官方 PDF 原檔入 `raw/`；**語料切分以此原檔為準**（一條一檔、長條按項），放入 `rag-data/`
 2. 打包語料 zip 供 RAG 01 讀取
 3. `colab/rag01-build-vector-db.ipynb` 於 Colab 執行建向量庫，**依作業規定匯出為 `rag-data.zip`**（＋pending 隔離包 `rag-data-pending.zip`），上傳雲端取得可下載網址
-4. `colab/rag02-chatbot.ipynb` **從雲端網址載入 rag-data.zip**，搭配 LLM 完成罰則問答機器人
+4. `colab/rag02-chatbot.ipynb` **從雲端網址載入 rag-data.zip**，搭配 LLM 完成罰則問答機器人；回答附條號，可回查 `raw/` 原檔溯源
 
 ## 繳交要點（作業七正式規定，2026-10-25 核對）
 
@@ -42,8 +43,8 @@ TAICA 生成式 AI 課程・**第七週作業「打造自己的 RAG 對話機器
 
 - 一條一檔：`art35.txt`；長條按項：`art35_para6.txt`
 - 增訂條文用連字號：`art35-2.txt`
-- metadata 必含：條號、章、修正日期、生效狀態（schema 見 `rag-data/metadata-schema.md`）
-- 回答必附條號
+- metadata 必含：條號、章、修正日期、生效狀態、`source_ref`（schema 見 `rag-data/metadata-schema.md`）
+- 回答必附條號，可回查 `raw/` 原檔
 
 ## Embedding
 

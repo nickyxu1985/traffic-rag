@@ -1,10 +1,15 @@
 # rag-data 語料
 
+## 資料來源原檔（單一真相）
+
+- **語料切分以 `raw/` 的官方 PDF 原檔為準**（全國法規資料庫 K0040012 整份下載）；切塊文字必須逐字對得上原檔，不得使用二手轉貼文字。
+- metadata 的 `source_ref` 欄指向 `raw/` 原檔定位（檔名＋頁碼/條號），見 `metadata-schema.md`。
+
 ## 切塊與命名
 
 - 一條一檔：`art35.txt`；長條按項：`art35_para6.txt`
 - 增訂條文：`art35-2.txt`
-- metadata 必含：條號、章、修正日期、生效狀態（pending 另含預定施行日期）
+- metadata 必含：條號、章、修正日期、生效狀態（pending 另含預定施行日期）、`source_ref`（溯源）
 
 ## 資料夾
 
@@ -19,4 +24,4 @@
 
 ## 打包
 
-由 `rag-data/core/` 打包 `rag-data.zip` 供 RAG 01 Colab 建向量庫；pending 另包、隔離跑。
+由 `rag-data/core/` 打包語料 zip 供 RAG 01 建向量庫；**向量庫匯出檔名依作業七規定＝`rag-data.zip`**；pending 另包、隔離跑。

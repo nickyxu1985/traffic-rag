@@ -1,6 +1,6 @@
 # AGENTS.md — traffic-rag 協定層
 
-本 repo 為 TAICA 第六週 RAG 作業（交通規則罰則問答）的唯一真相來源。
+本 repo 為 TAICA 第七週 RAG 作業（交通規則罰則問答）的唯一真相來源。
 設計文件（SDD v1.0）正式檔存於 Vibe Canvas（traffic-rag-sdd）；repo 內 docs/ 為設計摘录與修正紀錄。
 
 ## 流程
@@ -13,7 +13,7 @@
 
 | 角色 | 提案（issue） | 審查否決 | 建置／QA | merge | Write Scope |
 | --- | --- | --- | --- | --- | --- |
-| Instinct | ✓ | ✗（糾錯以回報提出） | 語料切塊、manifest、生效清單 | ✗ | `rag-data/**`、manifest 檔 |
+| Instinct | ✓ | ✗（糾錯以回報提出） | 官方原檔下載、語料切塊、manifest、生效清單 | ✗ | `raw/**`、`rag-data/**`、manifest 檔 |
 | Muse | ✓ | ✗ | manifest 相容性、RAG 01 索引驗收、rag01 notebook | ✗ | `tests/**`、`colab/rag01*` |
 | Cue | ✓ | ✗ | prompt、回答格式、題組生成驗收、rag02 notebook | ✗ | `tests/**`、`prompts/**`、`colab/rag02*`、`docs/**` |
 | Vibe（PM 幕僚） | ✓ | ✗ | repo 初始化、文件、排程盯場 | ✗ | 根目錄 README／AGENTS.md、`docs/**` |
@@ -41,5 +41,6 @@
 ## 文件同步義務
 
 - 隨變更更新 `docs/ai-trace/`（AI 留痕，繳交註三評分證據）與 `docs/ai-trace/d4-log.md`（修正紀錄）。
-- metadata 欄位以 `rag-data/metadata-schema.md` 為單一真相；prompt 以 `prompts/` 版本化；notebook 版控規則見 `colab/README.md`（主檔清 output、執行版入 executed/、一份 notebook 一個 owner）。
-- zip 檔不進 git（見 `.gitignore`）；語料以文字檔入版。
+- **語料切分以 `raw/` 官方原檔為準**（PM 定調 10/25）：切塊文字逐字對原檔；metadata `source_ref` 指向原檔定位（schema 見 `rag-data/metadata-schema.md`）。
+- metadata 欄位以 `rag-data/metadata-schema.md` 為單一真相；prompt 以 `prompts/` 版本化；notebook 版控規則見 `colab/README.md`。
+- zip 檔不進 git（見 `.gitignore`）；語料以文字檔入版（PDF 原檔除外，`raw/` 例外）。
