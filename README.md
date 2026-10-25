@@ -14,6 +14,7 @@ TAICA 生成式 AI 課程・第六週作業「打造你的 RAG 系統」實作 r
 | `rag-data/core/` | 現行法語料（五份小樣本起步，驗收通過後擴全量） |
 | `rag-data/pending/` | 未生效法規隔離區（三份樣本） |
 | `rag-data/metadata-schema.md` | metadata 欄位單一真相（manifest 相容性驗收依據） |
+| `colab/` | 兩份 notebook 版控（rag01＝Muse、rag02＝Cue；executed/ 執行版留痕） |
 | `prompts/` | RAG 02 prompt 版本化（Cue 維護；繳交註三證據鏈） |
 | `tests/` | 驗證題組 T1–T5（數字題、查無題、生效狀態題等） |
 | `docs/ai-trace/` | AI 使用留痕與 D4 修正紀錄（繳交註三必備） |
@@ -25,8 +26,8 @@ TAICA 生成式 AI 課程・第六週作業「打造你的 RAG 系統」實作 r
 
 1. 語料切塊（一條一檔、長條按項），放入 `rag-data/`
 2. 打包 `rag-data.zip`
-3. RAG 01 Colab（yenlung.me/rag01colab）建向量資料庫，匯出 `vector_embedding.zip`
-4. RAG 02 Colab（yenlung.me/rag02colab）讀取向量庫，完成罰則問答機器人
+3. `colab/rag01-build-vector-db.ipynb` 於 Colab 執行建向量庫，匯出 `vector_embedding.zip`
+4. `colab/rag02-chatbot.ipynb` 於 Colab 執行，完成罰則問答機器人
 
 ## 切塊與命名慣例
 

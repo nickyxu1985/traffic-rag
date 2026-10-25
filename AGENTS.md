@@ -14,13 +14,13 @@
 | 角色 | 提案（issue） | 審查否決 | 建置／QA | merge | Write Scope |
 | --- | --- | --- | --- | --- | --- |
 | Instinct | ✓ | ✗（糾錯以回報提出） | 語料切塊、manifest、生效清單 | ✗ | `rag-data/**`、manifest 檔 |
-| Muse | ✓ | ✗ | manifest 相容性、RAG 01 索引驗收 | ✗ | `tests/**`（驗收紀錄） |
-| Cue | ✓ | ✗ | prompt、回答格式、題組生成驗收 | ✗ | `tests/**`（題組）、`prompts/**`、`docs/**` |
+| Muse | ✓ | ✗ | manifest 相容性、RAG 01 索引驗收、rag01 notebook | ✗ | `tests/**`、`colab/rag01*` |
+| Cue | ✓ | ✗ | prompt、回答格式、題組生成驗收、rag02 notebook | ✗ | `tests/**`、`prompts/**`、`colab/rag02*`、`docs/**` |
 | Vibe（PM 幕僚） | ✓ | ✗ | repo 初始化、文件、排程盯場 | ✗ | 根目錄 README／AGENTS.md、`docs/**` |
 | **Nicky（HO／PM）** | ✓ | ✓（拍板） | 最終驗收、兩份 Colab 手動執行 | **✓ 唯一** | 全 repo |
 
 - 一個 agent 一個主職；兼任必須明寫；軌道命名與實際 agent 一一對應，不留幽靈軌道（wirelab 教訓，2026-10-19）。
-- Colab 本體無公開執行 API：兩份 notebook 一律由 HO 手動執行；agent 備料（語料、zip、題組、prompt），人不缺位。
+- Colab 本體無公開執行 API：notebook 檔由 agent 產出（.ipynb 入版），**執行一律由 HO 手動**；執行版留痕入 `colab/executed/`。
 
 ## 分支紀律
 
@@ -41,5 +41,5 @@
 ## 文件同步義務
 
 - 隨變更更新 `docs/ai-trace/`（AI 留痕，繳交註三評分證據）與 `docs/ai-trace/d4-log.md`（修正紀錄）。
-- metadata 欄位以 `rag-data/metadata-schema.md` 為單一真相；prompt 以 `prompts/` 版本化。
+- metadata 欄位以 `rag-data/metadata-schema.md` 為單一真相；prompt 以 `prompts/` 版本化；notebook 版控規則見 `colab/README.md`（主檔清 output、執行版入 executed/、一份 notebook 一個 owner）。
 - zip 檔不進 git（見 `.gitignore`）；語料以文字檔入版。
